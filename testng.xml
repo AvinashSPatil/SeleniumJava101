@@ -1,0 +1,55 @@
+<suite name="LT Suite" parallel="tests" thread-count="3">
+
+    <!-- Chrome Test -->
+    <test name="Chrome Testing Scenarios">
+        <parameter name="browserName" value="Chrome" />
+        <parameter name="platform" value="Windows 10" />
+        <parameter name="browserVersion" value="128.0" />
+        <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/" />
+        <classes>
+            <class name="testcases.SeleniumJava1011TestCase" />
+			<class name="testcases.SeleniumJava1012TestCase" />
+			<class name="testcases.SeleniumJava1013TestCase" />
+        </classes>
+    </test>
+
+    <!-- Edge Test -->
+    <test name="Edge Testing Scenarios">
+        <parameter name="browserName" value="Microsoft Edge" />
+        <parameter name="platform" value="macOS Ventura" />
+        <parameter name="browserVersion" value="127.0" />
+        <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/" />
+        <classes>
+            <class name="testcases.SeleniumJava1011TestCase" />
+			<class name="testcases.SeleniumJava1012TestCase" />
+			<class name="testcases.SeleniumJava1013TestCase" />
+        </classes>
+    </test>
+
+    <!-- Firefox Test -->
+    <test name="Firefox Testing Scenarios">
+        <parameter name="browserName" value="Firefox" />
+        <parameter name="platform" value="Windows 11" />
+        <parameter name="browserVersion" value="130.0" />
+        <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/" />
+        <classes>
+            <class name="testcases.SeleniumJava1011TestCase" />
+			<class name="testcases.SeleniumJava1012TestCase" />
+			<class name="testcases.SeleniumJava1013TestCase" />
+        </classes>
+    </test>
+
+    <!-- Internet Explorer Test -->
+    <test name="IE Testing Scenarios">
+        <parameter name="browserName" value="Internet Explorer" />
+        <parameter name="platform" value="Windows 10" />
+        <parameter name="browserVersion" value="11.0" />
+        <parameter name="URL" value="https://www.lambdatest.com/selenium-playground/" />
+        <classes>
+            <class name="testcases.SeleniumJava1011TestCase" />
+			<class name="testcases.SeleniumJava1012TestCase" />
+			<class name="testcases.SeleniumJava1013TestCase" />
+        </classes>
+    </test>
+
+</suite>
